@@ -23,6 +23,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", views.home),
     path("data/", views.data_pass),
+    # path("page/", views.MainPage),
     
     
 ]

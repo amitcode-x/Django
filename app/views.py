@@ -16,9 +16,9 @@ def data_pass(request):
         "course": "Django with React",
     }
 
-    return render(request,"datapass.html", context=data)
+    return render(request,"data_pass.html", context=data)
 
-def contact(request):
-    return render(request, "contact.html")
+def MainPage(request):
+    return render(request, "page.html")
 
 # Create your views here.
